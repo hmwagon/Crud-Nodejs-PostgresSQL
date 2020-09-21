@@ -2,4 +2,4 @@
 
 Aplicacion en desarrollo.
 
-Iniciar con npm run dev
+Iniciar con <code>npm run dev<code>

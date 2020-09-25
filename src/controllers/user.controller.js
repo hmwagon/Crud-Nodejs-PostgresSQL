@@ -12,7 +12,7 @@ const getUserByID = async (req, res) => {
 const createUser = async (req, res) => {
     const { name, email } = req.body;
     const response = await pool.query('INSERT INTO users (name, email) VALUES ($1, $2)', [name, email]);
-    console.log(response);
+    // console.log(response);
     res.json({
         mensaje: 'ok'
     });
